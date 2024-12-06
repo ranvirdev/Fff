@@ -1,0 +1,67 @@
+{
+  "symbols.hidesExplorerArrows": false,
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "workbench.iconTheme": "eq-material-theme-icons",
+  "editor.stickyScroll.enabled": false,
+  "git.openRepositoryInParentFolders": "never",
+  "explorer.confirmDragAndDrop": false,
+  "dart.debugExternalPackageLibraries": true,
+  "dart.debugSdkLibraries": false,
+  "git.enableSmartCommit": true,
+  "workbench.colorCustomizations": {
+    "editor.background": "#000000",
+    "sideBar.background": "#000000", // Black background for the Side Bar
+    "statusBar.background": "#000000", // Black background for the Status Bar
+    "titleBar.activeBackground": "#141111", // Black background for the Title Bar (active window)
+    "titleBar.inactiveBackground": "#000000", // Black background for the Title Bar (inactive window)
+
+    "panel.background": "#000000",
+    "activityBar.background": "#000000"
+  },
+  "editor.tokenColorCustomizations": {
+    "comments": {
+      "foreground": "#17b840b0"
+    },
+    // helloworld
+    "[*Light*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#000"
+          }
+        }
+      ]
+    },
+    "[*Dark*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#fff"
+          }
+        }
+      ]
+    }
+  },
+  "terminal.integrated.localEchoStyle": "dim",
+  "git.confirmSync": false,
+  "editor.codeActionsOnSave": {},
+  "editor.fontVariations": false,
+  "workbench.preferredHighContrastColorTheme": "Atom Just Black",
+  "editor.fontSize": 15,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.fontLigatures": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.colorTheme": "Material Theme Darker",
+  "redhat.telemetry.enabled": true,
+  "kotlin.languageServer.enabled": false,
+  "kotlin.debugAdapter.enabled": false,
+  "editor.stickyScroll.scrollWithEditor": false,
+  "workbench.tree.enableStickyScroll": false,
+  "json.schemas": [
+
+  ]
+}
